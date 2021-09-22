@@ -1,0 +1,188 @@
+.nav-link{
+    margin-right: 30px;
+    font-family: 'Assistant', sans-serif;
+    font-weight: 400;
+    color: #C52323
+    
+}
+
+.banner{
+    background: url(img/banner1@3x.JPG) center;
+    background-size: cover;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    color: white;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+}
+
+
+.banner .display-2{
+    font-family: viga;
+    padding-top: 160px;
+    font-weight: 50px;
+    font-size: 30px;
+}
+
+.banner .display-6{
+    font-family: serif;
+    font-weight: 200px;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+/* destop */
+@media (min-width: 992px){
+.banner{
+    background: url(img/banner1@3x.JPG) no-repeat center center;
+    height: 780px;
+    background-size: cover;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    color: white;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+}
+
+.banner .display-2{
+    font-family: viga;
+    padding-top: 10px;
+    font-weight: 500px;
+    font-size: 80px;
+}
+
+.banner .display-6{
+    font-family: serif;
+    font-weight: 200px;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+}
+
+/* statistik destop */
+@media (min-width: 992px){
+
+    .data-statistik{
+        background-color:white ;
+        margin-top: -380px;
+        color: #C52323;
+    }
+}
+
+
+a.sosial{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    border-radius: 50%;
+    background-color: #C52323;
+    line-height: 40px;
+}
+
+/* data statistik mobile */
+@media (max-width: 992px){
+.data-statistik{
+    background-color:white ;
+        margin-top: -410px;
+        color: #C52323;
+    
+}
+}
+@media (max-width: 365px){
+    .data-statistik{
+        background-color:white ;
+            margin-top: -500px;
+            color: #C52323;
+        
+    }
+    }
+/* tujuan */
+.tujuan {
+    color: white;
+    background-color:#C52323 ;
+}
+
+.tujuan .display-1{
+    padding-top: 100px;
+}
+
+.tujuan p{
+    margin-bottom: 50px;
+}
+
+/* kelas */
+
+.kelas {
+    margin-top: 340px;
+}
+
+.card {
+    background-color: #C52323;
+}
+
+.testimonial img {
+    width: 150px;
+    height: 150px;
+}
+
+/* css pengajar */
+
+.lingkaran{
+    display: inline-block;
+    border-radius: 50%;
+    width: 150px;
+    margin: auto;
+    height: 150px;
+    color: white;
+    background-color: #C52323;
+}
+
+.lingkaran  i{
+    position: relative;
+    top: 30px;
+    
+}
+
+.crop-img{
+    object-fit: cover;
+}
+
+
+.tim img{
+ 
+    border: 7px solid #C52323 ;
+}
+
+a.sosial{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    border-radius: 50%;
+    background-color: #C52323;
+    line-height: 40px;
+}
+
+h2 {
+    font-family: viga;
+    font-weight: 500px;
+    font-size: 40px;
+}
+
+/* Destop youtube */
+
+@media (min-width: 1200px) {
+
+    iframe {
+    width: 560px;
+    height: 315px;
+}
+}
+
+.pembelajaran{
+    background-color: lightgrey;
+}
+
+
+/* Destop artikel */
+
