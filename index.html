@@ -29,8 +29,8 @@
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <div class="container">
-            <a class="navbar-brand" href="#">
-                <img src="img/logo OC.png" alt="logo OC" height="24">
+            <a class="navbar-brand" href="index.html">
+                <img src="img/logo OC.png" alt="logo OC">
               </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -81,7 +81,7 @@
             <i class="fab fa-whatsapp"></i>
           </a>
        </p>
-</div>
+    </div>
   </div>
 </div>
 <!-- akhir jumbotron -->
@@ -92,7 +92,7 @@
     <h2 class="display-1">Tujuan Orvala</h2>
     <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta quos voluptatibus magni dolore perspiciatis 
       consequatur officia molestiae exercitationem maxime dicta quasi, accusantium esse, minima nesciunt repellendus 
-      reiciendis suscipit beatae cumque!
+      reiciendis suscipit beatae cumque! Lorem ipsum dolor sit amet consectetur adipisicing elit. At repudiandae dolor ipsa tempore enim repellat, incidunt quibusdam hic vitae excepturi!
     </p><br>
   </div>
 </div>
@@ -120,35 +120,35 @@
   <div class="container  text-center ">
     <h2 class="display-3" >Pilih Kelasmu</h2>
     <div class="row pt-5 gx-4 gy-4">
-      <div class="col-md-3">
-        <div class="card">
+      <div class="col-md-3 sm-6">
+        <div class="card-kelas">
           <img src="img/kelas/bas.png" class="card-img-top" alt="basic">
           <div class="card-body">
-            <a href="#" class="btn btn-warning">Cek Kelas</a>
+            <a href="Kelas/basicclass.html" class="btn btn-warning">Cek Kelas</a>
           </div>
         </div>
       </div>
-      <div class="col-md-3">
-        <div class="card">
+      <div class="col-md-3 sm-6">
+        <div class="card-kelas">
           <img src="img/kelas/int.png" class="card-img-top" alt="intermediate">
           <div class="card-body">
-            <a href="#" class="btn btn-warning">Cek Kelas</a>
+            <a href="Kelas/intermediateclass.html" class="btn btn-warning">Cek Kelas</a>
           </div>
         </div>
       </div>
-      <div class="col-md-3">
-        <div class="card" >
-          <img src="img/kelas/adv1.png" class="card-img-top" alt="advanced1">
+      <div class="col-md-3 sm-6">
+        <div class="card-kelas" >
+          <img src="img/kelas/adv1.png" class="card-img-top" alt="advance1">
           <div class="card-body">
-            <a href="#" class="btn btn-warning">Cek Kelas</a>
+            <a href="Kelas/advanced1.html" class="btn btn-warning">Cek Kelas</a>
           </div>
         </div>
       </div>
-      <div class="col-md-3">
-        <div class="card" >
+      <div class="col-md-3 sm-6">
+        <div class="card-kelas" >
           <img src="img/kelas/adv2.png" class="card-img-top" alt="advanced2">
           <div class="card-body">
-            <a href="#" class="btn btn-warning">Cek Kelas</a>
+            <a href="Kelas/advanced2.html" class="btn btn-warning">Cek Kelas</a>
           </div>
         </div>
       </div>
@@ -367,29 +367,28 @@
       </div>
   </div>
 </div>
-<!-- kontak -->
-<div class="container-fluid pt-5 pb-5 kontak" style="color: white; background-image: url(img/footer.jpg)">
+<div class="container-fluid pt-5 pb-5 kontak" style="background-image: url(img/footer.jpg); color: white;">
   <div class="container">
       <h2 class="display-3 text-center" >Kontak kami</h2>
       <p class="text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum, quo?</p>
-      <div class="col text-center">
-       <p>
-          <a href="https://www.youtube.com/c/Orvala" class="sosial">
-            <i class="fab fa-youtube"></i>
-          </a>
-          <a href="https://www.instagram.com/orvala.class/" class="sosial">
-              <i class="fab fa-instagram"></i>
-          </a>
-          <a href="https://api.whatsapp.com/send?phone=+6282152221116&text=Hallo+admin%2C+saya+tertarik+dengan+kelas+online+di+orvala.class" class="sosial">
-            <i class="fab fa-whatsapp"></i>
-          </a>
-       </p>
-    </div>  
+      <div class="row pb-3">
+          <div class="col-md-6">
+                <input class="form-control form-control-lg mb-2" type="text" placeholder="nama">
+                <input class="form-control form-control-lg mb-2" type="email" placeholder="email">
+                <input class="form-control form-control-lg mb-2" type="no. phone" placeholder="no. phone">
+          </div>
+          <div class="col-md-6">
+              <textarea class="form-control form-control-lg" rows="5"></textarea>
+          </div>
+      </div>
+      <div class="col-md-3 mx-auto text-center">
+          <button type="button" class="btn btn-danger btn-lg">Kirim pesan</button>
+      </div>
   </div>
 </div>
-<div class="containerfluid text-center pt-3 pb-3" style="background-color: #C52323; color: white;">
+<div class="containerfluid text-center pt-5 pb-5" style="background-color: #C52323;">
 <p class="text-center footer">All Rights Reserved &copy 2021</p>
-</div> 
+</div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" 
     integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" 
     crossorigin="anonymous">

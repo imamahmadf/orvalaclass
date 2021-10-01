@@ -1,3 +1,9 @@
+.nav-brand {
+    padding-top: 0.1rem;
+    display: inline-block;
+    white-space: nowrap;
+}
+
 .nav-link{
     margin-right: 30px;
     font-family: 'Assistant', sans-serif;
@@ -116,7 +122,7 @@ a.sosial{
     margin-top: 340px;
 }
 
-.card {
+.card-kelas {
     background-color: #C52323;
 }
 
@@ -183,6 +189,9 @@ h2 {
     background-color: lightgrey;
 }
 
+.isi-kelas {
+    margin-top: -70px;
+}
 
 /* Destop artikel */
 
